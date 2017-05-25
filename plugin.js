@@ -18,7 +18,6 @@ const API_PATH = `${APP_PATH}/App/Services/Api.js`
 const IGNITE_DEVSCREENS_PATH = `${APP_PATH}/ignite/DevScreens`
 
 const add = async function (context) {
-  console.log('I am adding!!!')
   const { ignite, filesystem } = context
 
   // install a npm module and link it
@@ -81,7 +80,6 @@ const add = async function (context) {
  */
 const remove = async function (context) {
   const { ignite, filesystem, patching } = context
-  console.log('I am removing!!!')
 
   // remove the npm module
   await ignite.removeModule(NPM_MODULE_NAME, {dev: true})
