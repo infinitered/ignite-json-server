@@ -11,9 +11,9 @@ This plugin installs the necessary files and configuration settings to run [JSON
   - If you answer yes, json-server will be integrated with the dev screens. You will have to start up json-server in order to provide the API endpoints required by the Startup saga as well as the API testing dev screens. See step 3 to see how to start up json-server.
   - If you answer no, json-server will be added to your application without integration to the optional dev screens.
 
- 3. Open a new terminal screen and start json-server with this command: `yarn|npm run json-server`. This will start a json-server instance that you can access via API endpoints if you integrate them into your application. The default settings for json-server are in `JsonServer/json-server.json`. Here is where you set the host and port settings for json-server. I recommend installing [Postman](https://www.getpostman.com/) to test json-server.
+3. Open a new terminal screen and start json-server with this command: `yarn|npm run json-server`. This will start a json-server instance that you can access via API endpoints if you integrate them into your application. The default settings for json-server are in `JsonServer/json-server.json`. Here is where you set the host and port settings for json-server. I recommend installing [Postman](https://www.getpostman.com/) to test json-server.
 
- 4. Read the docs for [JSON-Server](https://github.com/typicode/json-server). You can modify the JSON file used by json-server here: `JsonServer/db.json`. Set up routes if you need them by modifying `JsonServer/routes.json`.
+4. Read the docs for [JSON-Server](https://github.com/typicode/json-server). You can modify the JSON file used by json-server here: `JsonServer/db.json`. Set up routes if you need them by modifying `JsonServer/routes.json`.
 
 5. If you elected to integrate json-server with the dev screens, a middleware file is added to JsonServer/devScreenIntegration.js. This file is referenced in the startup script:
     ```
