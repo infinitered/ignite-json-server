@@ -5,7 +5,7 @@ This plugin installs the necessary files and configuration settings to run [JSON
 
 ## Installation and Usage
 
-1. CD to the root of your Ignited project and issue this command: `yarn|npm add json-server`
+1. CD to the root of your Ignited project and issue this command: `ignite add json-server`
 
 2. If you have installed [ignite-dev-screens](https://github.com/infinitered/ignite-dev-screens) to your app, a prompt will appear ('Do you want to integrate json-server with the dev screens?').
   - If you answer yes, json-server will be integrated with the dev screens. You will have to start up json-server in order to provide the API endpoints required by the Startup saga as well as the API testing dev screens. See step 3 to see how to start up json-server.
