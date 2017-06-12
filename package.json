@@ -1,7 +1,7 @@
 {
   "name": "ignite-json-server",
   "description": "An Ignite plugin that installs json-server as a development dependency to your Ignited app.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "files": [
     "README.md",
